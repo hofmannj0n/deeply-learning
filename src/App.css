@@ -1,0 +1,88 @@
+.App {
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: #f7fafd;
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  background: linear-gradient(90deg, #0a2342 60%, #185adb 100%);
+  color: #fff;
+  padding: 3rem 1rem 2rem 1rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+main {
+  flex: 1;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(24, 90, 219, 0.07);
+  margin-bottom: 2rem;
+  padding: 2rem 1.5rem;
+}
+
+section h2 {
+  color: #185adb;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+
+.contact a {
+  color: #185adb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0 1rem 0;
+  color: #888;
+  font-size: 1rem;
+  background: none;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2.1rem;
+  }
+  main {
+    padding: 0 0.2rem;
+  }
+  section {
+    padding: 1.2rem 0.5rem;
+  }
+}
