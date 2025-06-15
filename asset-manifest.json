@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/deeply-learning/static/css/main.3a9f9c65.css",
+    "main.js": "/deeply-learning/static/js/main.0a899e25.js",
+    "service-worker.js": "/deeply-learning/service-worker.js",
+    "index.html": "/deeply-learning/index.html",
+    "main.3a9f9c65.css.map": "/deeply-learning/static/css/main.3a9f9c65.css.map",
+    "main.0a899e25.js.map": "/deeply-learning/static/js/main.0a899e25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a9f9c65.css",
+    "static/js/main.0a899e25.js"
+  ]
+}
